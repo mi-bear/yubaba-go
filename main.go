@@ -13,7 +13,7 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 	reader := bufio.NewReader(os.Stdin)
 
-	fmt.Println("湯婆婆: 契約書だよ。そこに名前を書きな。")
+	fmt.Println("かの人: 契約書だよ。そこに名前を書きな。")
 
 	for {
 		name, err := promptName(reader)
